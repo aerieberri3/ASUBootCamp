@@ -29,8 +29,8 @@ contract JointSavings {
     // YOUR CODE HERE!
     address payable accountOne;
     address payable accountTwo;
-    address payable lastToWithdrawl;
-    uint public lastWithdrawlAmount;
+    address payable lastToWithdraw;
+    uint public lastWithdrawAmount;
     uint public contractBalance; 
 
     /*
@@ -97,8 +97,8 @@ contract JointSavings {
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
         // YOUR CODE HERE!
         
-        accountOne = account1;
-        accountTwo = account2;
+        accountOne = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+        accountTwo = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
     }
 
     /*
